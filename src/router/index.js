@@ -3,7 +3,11 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import EditarCategoria from '../components/Categoria/EditarCategoria.vue';
 import NewCategoria from '../components/Categoria/NewCategoria.vue';
 
+import EditarProducto from '../components/Producto.vue/EditarProducto.vue';
+import NewProducto from '@/components/Producto.vue/NewProducto.vue';
+
 import Categoria from '../views/Categorias.vue';
+import Producto from '../views/Productos.vue';
 import HomeView from '../views/HomeView.vue'
 
 const routes = [
@@ -28,6 +32,24 @@ const routes = [
     path: '/categorias/nueva',
     name: 'NewCategoria',
     component: NewCategoria
+  },
+
+  {
+    path: '/productos',
+    name: 'productos',
+    component: Producto
+  },
+
+  {
+    path: '/productos/editar/:id',
+    name: 'EditarProducto',
+    component: EditarProducto 
+  },
+
+  {
+    path: '/productos/nueva',
+    name: 'NewProducto',
+    component: NewProducto
   },
 
   {
