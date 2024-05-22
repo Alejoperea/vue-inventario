@@ -9,7 +9,11 @@ import NewProducto from '@/components/Producto.vue/NewProducto.vue';
 import EditarTransaccion from '../components/Transaccion/EditarTransaccion.vue';
 import NewTransaccion from '../components/Transaccion/NewTransaccion.vue';
 
+import EditarProveedor from '../components/Proveedor/EditarProveedor.vue';
+import NewProveedor from '../components/Proveedor/NewProveedor.vue';
+
 import Categoria from '../views/Categorias.vue';
+import Proveedor from '../views/Proveedores.vue';
 import Producto from '../views/Productos.vue';
 import Transaccion from '../views/Transacciones.vue';
 import HomeView from '../views/HomeView.vue'
@@ -72,6 +76,24 @@ const routes = [
     path: '/transaccion/nueva',
     name: 'NewTransaccion',
     component: NewTransaccion
+  },
+
+  {
+    path: '/proveedores',
+    name: 'proveedores',
+    component: Proveedor
+  },
+
+  {
+    path: '/proveedores/editar/:id',
+    name: 'EditarProveedor',
+    component: EditarProveedor 
+  },
+
+  {
+    path: '/proveedores/nueva',
+    name: 'NewProveedor',
+    component: NewProveedor
   },
 
   {
