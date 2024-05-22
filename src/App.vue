@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/productos">Productos</router-link> |
     <router-link to="/categorias">Categorias</router-link> |
+    <router-link to="/transacciones">Transacciones</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>

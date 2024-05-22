@@ -6,8 +6,12 @@ import NewCategoria from '../components/Categoria/NewCategoria.vue';
 import EditarProducto from '../components/Producto.vue/EditarProducto.vue';
 import NewProducto from '@/components/Producto.vue/NewProducto.vue';
 
+import EditarTransaccion from '../components/Transaccion/EditarTransaccion.vue';
+import NewTransaccion from '../components/Transaccion/NewTransaccion.vue';
+
 import Categoria from '../views/Categorias.vue';
 import Producto from '../views/Productos.vue';
+import Transaccion from '../views/Transacciones.vue';
 import HomeView from '../views/HomeView.vue'
 
 const routes = [
@@ -50,6 +54,24 @@ const routes = [
     path: '/productos/nueva',
     name: 'NewProducto',
     component: NewProducto
+  },
+
+  {
+    path: '/transacciones',
+    name: 'transacciones',
+    component: Transaccion
+  },
+
+  {
+    path: '/transacciones/editar/:id',
+    name: 'EditarTransaccion',
+    component: EditarTransaccion 
+  },
+
+  {
+    path: '/transaccion/nueva',
+    name: 'NewTransaccion',
+    component: NewTransaccion
   },
 
   {
