@@ -4,6 +4,7 @@
     <router-link to="/productos">Productos</router-link> |
     <router-link to="/categorias">Categorias</router-link> |
     <router-link to="/proveedores">Proveedores</router-link> |
+    <router-link to="/inventarios">Inventarios</router-link> |
     <router-link to="/transacciones">Transacciones</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
