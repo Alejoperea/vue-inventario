@@ -29,7 +29,7 @@
                         <label for="contacto" class="form-label">Contacto : </label>
                         <div class=" input-group">
                             <div class="input-group-text"><font-awesome-icon icon="building" /></div>
-                            <input type="number" class="form-control" id="contacto" placeholder="Contacto" 
+                            <input type="text" class="form-control" id="contacto" placeholder="Contacto" 
                                 v-model='proveedor.contacto'>
                         </div>
                     </div>

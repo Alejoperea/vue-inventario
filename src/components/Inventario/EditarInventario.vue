@@ -102,6 +102,7 @@ export default {
       }
     },
     mounted() {
+      this.loadInventario();
       this.loadProductos();
       this.loadProveedores();
     }
